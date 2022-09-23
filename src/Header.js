@@ -1,4 +1,5 @@
 import Pippo from "./Pippo"
+import "./header.css"
 
 export default function Header(){
     return(
