@@ -1,12 +1,12 @@
 import Header from './Header';
 import Footer from './Footer';
-import Card from './Card';
+import Genitore from './Genitore';
 
 export default function Layout(){
     return (
         <main>
             <Header/>
-            <Card />
+            <Genitore />
             <Footer/>
         </main>
     )
