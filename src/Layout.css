@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+div {
+    color: #fff;
+    font-family: "Lato", sans-serif;
+}
+
+p{
+    font-weight: 300;
+    color: red;
+    line-height: 2;
+}
+
+header, #strategic, #contact, #portfolio, footer{
+    padding: 4rem 8rem;
+}
+
+#team{
+    padding: 4rem 8rem 0rem 8rem;
+    margin-bottom: -3px;
+}
+
+#strategic, #contact, #portfolio{
+    background-color: #181823;
+}
+
+header, #team, footer, nav{
+    background-color: #000;
+}
+
+#waves{
+    background-color: #000;
+    margin-top: -25%;
+    margin-bottom: -10%;
+}
+
+nav{
+    color: #f03a76;
+    padding: 1rem 8rem;
+}

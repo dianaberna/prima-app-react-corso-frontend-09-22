@@ -1,0 +1,15 @@
+button{
+    color: white;
+    padding: 1rem 3rem 1rem 3rem;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 0;
+}
+
+.primary{
+    background-color: #f03a76;
+}
+
+.secondary{
+    background-color: blue;
+}

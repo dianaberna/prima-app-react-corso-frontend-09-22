@@ -1,13 +1,14 @@
 import Header from './Header';
 import Footer from './Footer';
-import Genitore from './Genitore';
+import Main from './Main'
+import "./Layout.css"
 
 export default function Layout(){
     return (
-        <main>
+        <div>
             <Header/>
-            <Genitore />
+            <Main />
             <Footer/>
-        </main>
+        </div>
     )
 }
