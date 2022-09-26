@@ -28,7 +28,7 @@ root.render(
       <summary>Mostra componente ListCard</summary>
       <ListCard/>
     </details>
-    <h2>Button & ButtonWithLoader (concetti: render condizionato e setState)</h2>
+    <h2>Button & ButtonWithLoader (concetti: render condizionato + PropTypes e setState)</h2>
     <details>
       <summary>Mostra componente Button e ButtonWithLoader</summary>
       <Button variante="primary">sono un bottone primary</Button>

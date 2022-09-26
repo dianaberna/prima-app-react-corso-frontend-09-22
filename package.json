@@ -2,8 +2,9 @@
   "name": "prima-app-react-corso-frontend-09-22",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dianaberna.github.io/gh-pages",
+  "homepage": "https://dianaberna.github.io/prima-app-react-corso-frontend-09-22",
   "dependencies": {
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
