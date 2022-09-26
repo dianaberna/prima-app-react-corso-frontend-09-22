@@ -1,13 +1,16 @@
 {
-  "name": "prima-app-react",
+  "name": "prima-app-react-corso-frontend-09-22",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dianaberna.github.io/gh-pages",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
@@ -28,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

@@ -4,22 +4,29 @@ import "./ButtonWithLoader.css";
 export default function ButtonWithLoader() {
     const [loading, setLoading] = useState(false);
 
+    let loading2 = false
+    function setLoading2(valore){
+        console.log("valore: "+valore+" loading2: "+loading2)
+        loading2 = valore
+        return valore === true ? false : true;
+    }
+
+
     const handleOnClick = () => {
-        setLoading(true);
+        //setLoading(true);
+        setLoading2(true)
         console.log("Mostro l'animazione ");
         setTimeout(() => {
-            console.log("E' passato un secondo, nascondo l'animazione ");
-            setLoading(false);
+            console.log("E' passato due secondi, nascondo l'animazione ");
+            //setLoading(false);
+            setLoading2(false)
         }, 2000);
     };
 
     return (
         <button onClick={handleOnClick}>
             <svg
-                className={[
-                    "rotating",
-                    loading === true ? "animation" : "hide",
-                ].join(" ")}
+                className={["rotating",loading2 === true ? "animation" : "hide",].join(" ")}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
             >

@@ -25,7 +25,7 @@ export function List() {
     let array = [];
     for (let i = 1; i < volte; i++) {
         array.push(
-            <li>
+            <li key={i}>
                 <Card />
             </li>
         );

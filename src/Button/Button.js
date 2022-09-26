@@ -2,7 +2,7 @@ import "./Button.css"
 
 const Button = (props) => {
     return (
-        <button className={props.type}>{props.children}</button>
+        <button className={props.variante}>{props.children}</button>
     )
 }
 

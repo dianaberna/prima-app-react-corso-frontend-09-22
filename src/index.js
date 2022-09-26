@@ -31,9 +31,11 @@ root.render(
     <h2>Button & ButtonWithLoader (concetti: render condizionato e setState)</h2>
     <details>
       <summary>Mostra componente Button e ButtonWithLoader</summary>
-      <Button type="primary">sono un bottone primary</Button>
-      <Button type="secondary">sono un bottone secondary</Button>
-      <Button type="outline">sono un bottone outline</Button>
+      <Button variante="primary">sono un bottone primary</Button>
+      <Button variante="secondary">sono un bottone secondary</Button>
+      <Button variante="outline">sono un bottone outline</Button>
+      <ButtonWithLoader/>
+      <ButtonWithLoader/>
       <ButtonWithLoader/>
     </details>
     <h2>Form (concetti: setState e handle di eventi)</h2>
@@ -43,17 +45,3 @@ root.render(
     </details>
   </React.StrictMode>
 );
-
-
-/* 
-    let numero = 10 
-    let array = []
-    for (let i = 1; i < numero; i++) {
-        array.push(<Button key={i}>{i}</Button>)
-    }
-            <Button type="secondary">testo del bottone</Button>
-
-            <h3>Stampo {numero} bottoni</h3>
-            {array}
-
-            <Card/> */
