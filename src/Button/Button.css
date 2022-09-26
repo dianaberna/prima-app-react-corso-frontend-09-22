@@ -1,13 +1,12 @@
 button{
     color: white;
-    padding: 1rem 3rem 1rem 3rem;
+    padding: 0.5rem 1rem;
     font-weight: bold;
-    border-radius: 50px;
     border: 0;
 }
 
 .primary{
-    background-color: #f03a76;
+    background-color: red;
 }
 
 .secondary{

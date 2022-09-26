@@ -1,4 +1,5 @@
 import "./Genitore.css"
+import Input from "./Input"
 
 export default function Genitore(){
     let a = 200
@@ -38,12 +39,6 @@ export default function Genitore(){
             </Figlio3>
             <hr/>
         </div>
-    )
-}
-
-function Input( props ){
-    return(
-        <input type={props.type} placeholder={props.children} />
     )
 }
 

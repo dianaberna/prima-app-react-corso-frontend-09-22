@@ -1,21 +1,23 @@
 import "./Header.css"
-import Button from './Button'
+import ButtonComponent from '../Button'
+import Phone from '../assets/phone.png'
+import {ReactComponent as Logo} from '../assets/logo.svg'
 
 export default function Header(){
     return(
         <header>
             <div>
-                <h1>We Create Powerful Digital <span>Products.</span></h1>
+                <Logo />
+                <h1>Titolo</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adiscing edit. Dolor
                     morbi vedit turpis et dolor sit morbi odio id. Aliquam ultricies
                     tortor ac.
                 </p>
-                <Button type="primary"/>
+                <ButtonComponent type="primary">cliccami</ButtonComponent>
             </div>
-            <img src="" alt="cellulare" />
+            <img src={Phone} alt="cellulare" />
         </header>
     )
 }
-
 

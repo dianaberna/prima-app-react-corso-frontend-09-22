@@ -9,10 +9,9 @@ header span {
 }
 
 header img {
-  width: 700px;
-  height: 700px;
+  height: 30rem;
 }
 
-header p{
-  color: blue;
+header svg{
+  height: 2rem;
 }
