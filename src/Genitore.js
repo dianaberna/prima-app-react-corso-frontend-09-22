@@ -1,24 +1,15 @@
-import "./Genitore.css"
-import Input from "./Input"
-
 export default function Genitore(){
     let a = 200
-    /* console.log(somma(a,2)) */
+    
     return (
-        <div id="prova">
-            <hr/>
-            <img src="" alt=""/>
-
+        <div >
             <h2>prima chiamata del figlio1</h2>
             <Figlio1 />
             <h2>seconda chiamata del figlio1</h2>
             <Figlio1 valore={a} titolo="ciao"/>
             <h2>terza chiamata del figlio1</h2>
             <Figlio1 valore="10"/>
-            <Figlio1 >ciao</Figlio1>
-
-            <Input type="text">inserisci testo qui</Input>
-            <Input type="email">inserisci testo qui</Input>
+            <Figlio1>ciao</Figlio1>
 
             <hr/>
 
@@ -53,15 +44,9 @@ function Figlio1( props ){
     )
 }
 
-
-
-function somma(a, b){
-    return a+b;
-}
-
 function Figlio2( {children} ){
     return (
-      <p>sono il paragrago 2: {children}</p>
+      <div>sono il paragrago 2: {children}</div>
     )
 }
 

@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+header img {
+  height: 4rem;
+}
+
+header svg{
+  height: 4rem;
+}
+
+#bgGatto{
+  width: 4rem;
+  height: 4rem;
+  background-image: url(../../assets/gatto2.jpeg);
+  background-size: auto 4rem;
+}

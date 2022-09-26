@@ -1,11 +1,11 @@
 
 import React, { useState } from "react";
-import Input from "../Input/Input"
+import Input from "./Input/Input"
 import "./Form.css"
 
 export default function Form (){
 
-/*     let form = [{
+    /* let form = [{
         tipo: "email",
         etichetta: "Email",
         id: "email1",
