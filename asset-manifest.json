@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.a033ed90.css",
+    "main.js": "/react-gh-pages/static/js/main.47f2a928.js",
+    "static/media/gatto2.jpeg": "/react-gh-pages/static/media/gatto2.0360ed0d21ca1d832028.jpeg",
+    "static/media/logo.svg": "/react-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.a033ed90.css.map": "/react-gh-pages/static/css/main.a033ed90.css.map",
+    "main.47f2a928.js.map": "/react-gh-pages/static/js/main.47f2a928.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a033ed90.css",
+    "static/js/main.47f2a928.js"
+  ]
+}
