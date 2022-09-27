@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function NotToDo(){
 
@@ -10,8 +10,6 @@ export default function NotToDo(){
 
        let nuovalista = [...lista, task]
        setLista(nuovalista)
-
-       console.log(lista.map(elemento => elemento));
     }
     
     const handleNameChange = (e) =>{
@@ -21,15 +19,13 @@ export default function NotToDo(){
 
     return(
         <div>
-            <div>Lista in un unico file</div> 
-            <hr />
+            <h1>To Do List (file unico) <span>({lista.length})</span></h1>
             <form onSubmit={checkAndPass}>
                 <label htmlFor="nome">Nome:</label>
                 <input value={task} type="text" id="nome" placeholder="Enter a Name" onChange={handleNameChange}/>
                 <button type="submit" value="submit">Submit</button>
             </form>
             {lista.map((elem, i) => (<li key={i}>{elem}</li>) )}
-            <hr />
         </div>
     );
 }
