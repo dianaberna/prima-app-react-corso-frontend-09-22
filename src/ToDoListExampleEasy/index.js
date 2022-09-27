@@ -1,5 +1,3 @@
-import InputText from "./InputText";
-
 import React, { useState } from "react";
 
 export default function NotToDo(){
@@ -26,11 +24,11 @@ export default function NotToDo(){
             <div>Lista in un unico file</div> 
             <hr />
             <form onSubmit={checkAndPass}>
-                <InputText onChange={handleNameChange} value={task} tipo="inpt" labelFor="nome" labelText="Nome:" inputId="nome" inputPH="Enter a Name"/>
+                <label htmlFor="nome">Nome:</label>
+                <input value={task} type="text" id="nome" placeholder="Enter a Name" onChange={handleNameChange}/>
                 <button type="submit" value="submit">Submit</button>
             </form>
-            {lista.map((elem, index) => {return (<li key={index}>{elem}</li>)} )}
-            
+            {lista.map((elem, i) => (<li key={i}>{elem}</li>) )}
             <hr />
         </div>
     );
