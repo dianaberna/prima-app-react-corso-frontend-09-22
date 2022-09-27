@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/prima-app-react-corso-frontend-09-22/static/css/main.f773f64e.css",
-    "main.js": "/prima-app-react-corso-frontend-09-22/static/js/main.086f5029.js",
-    "static/media/gatto2.jpeg": "/prima-app-react-corso-frontend-09-22/static/media/gatto2.0360ed0d21ca1d832028.jpeg",
-    "static/media/logo.svg": "/prima-app-react-corso-frontend-09-22/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/prima-app-react-corso-frontend-09-22/index.html",
-    "main.f773f64e.css.map": "/prima-app-react-corso-frontend-09-22/static/css/main.f773f64e.css.map",
-    "main.086f5029.js.map": "/prima-app-react-corso-frontend-09-22/static/js/main.086f5029.js.map"
+    "main.css": "/static/css/main.ec542256.css",
+    "main.js": "/static/js/main.9fedf144.js",
+    "static/media/gatto2.jpeg": "/static/media/gatto2.0360ed0d21ca1d832028.jpeg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.ec542256.css.map": "/static/css/main.ec542256.css.map",
+    "main.9fedf144.js.map": "/static/js/main.9fedf144.js.map"
   },
   "entrypoints": [
-    "static/css/main.f773f64e.css",
-    "static/js/main.086f5029.js"
+    "static/css/main.ec542256.css",
+    "static/js/main.9fedf144.js"
   ]
 }
