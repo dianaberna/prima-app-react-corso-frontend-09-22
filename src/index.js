@@ -7,7 +7,8 @@ import ButtonWithLoader from './ButtonWithLoader/ButtonWithLoader'
 import ListCard from './ListCard/ListCard'
 import Form from './Form/Form'
 import LifeCycle from './LifeCycle'
-import ToDoListExample from './ToDoListExample/'
+import ToDoListExampleEasy from './ToDoListExampleEasy'
+import ToDoListExample from './ToDoListExample'
 
 import "./index.css"
 
@@ -48,7 +49,8 @@ root.render(
     <h2>Esercizio: To Do List</h2>
     <details>
       <summary>Mostra componenti</summary>
-      <ToDoListExample/>
+      <ToDoListExampleEasy/>
+      {/* <ToDoListExample/> */}
     </details>
     <h2>TO DO: useEffect </h2>
     <details>

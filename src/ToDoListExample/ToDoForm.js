@@ -16,7 +16,7 @@ const ToDoForm = ({ addTask }) => {
     return (
         <form onSubmit={handleSubmit}>
             <input value={userInput} type="text" onChange={handleChange} placeholder="Inserisci un nuovo task..."/>
-            <button>Submit</button>
+            <button>Invia</button>
         </form>
     );
 };
