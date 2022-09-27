@@ -7,7 +7,6 @@ export default function NotToDo(){
 
     const checkAndPass = (event) => {
        event.preventDefault();
-
        let nuovalista = [...lista, task]
        setLista(nuovalista)
     }
@@ -19,11 +18,11 @@ export default function NotToDo(){
 
     return(
         <div>
-            <h1>To Do List (file unico) <span>({lista.length})</span></h1>
+            <h1>To Do List [file unico] <span>({lista.length})</span></h1>
             <form onSubmit={checkAndPass}>
-                <label htmlFor="nome">Nome:</label>
-                <input value={task} type="text" id="nome" placeholder="Enter a Name" onChange={handleNameChange}/>
-                <button type="submit" value="submit">Submit</button>
+                <label htmlFor="task">Inserisci nuovo task:</label>
+                <input value={task} type="text" id="task" placeholder="Inserisci un nuovo task..." onChange={handleNameChange}/>
+                <button type="submit" value="submit">Invia</button>
             </form>
             {lista.map((elem, i) => (<li key={i}>{elem}</li>) )}
         </div>

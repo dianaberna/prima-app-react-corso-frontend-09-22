@@ -15,7 +15,8 @@ const ToDoForm = (props) => {
     }
     return (
         <form onSubmit={handleSubmit}>
-            <input value={task} type="text" onChange={handleChange} placeholder="Inserisci un nuovo task..."/>
+            <label htmlFor="task">Inserisci nuovo task: </label>
+            <input value={task} id="task" type="text" onChange={handleChange} placeholder="Inserisci un nuovo task..."/>
             <button>Invia</button>
         </form>
     );
