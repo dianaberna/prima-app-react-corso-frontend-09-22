@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
 
-const ToDoForm = ({ addTask }) => {
+const ToDoForm = (props) => {
 
-    const [ userInput, setUserInput ] = useState('');
+    const [ task, setTask ] = useState('');
 
     const handleChange = (e) => {
-        setUserInput(e.currentTarget.value)
+        setTask(e.currentTarget.value)
     }
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        addTask(userInput);
-        setUserInput("");
+        props.addTask(task);
+        setTask("");
     }
     return (
         <form onSubmit={handleSubmit}>
-            <input value={userInput} type="text" onChange={handleChange} placeholder="Inserisci un nuovo task..."/>
+            <input value={task} type="text" onChange={handleChange} placeholder="Inserisci un nuovo task..."/>
             <button>Invia</button>
         </form>
     );

@@ -9,7 +9,7 @@ const ToDo = ({todo, handleClick}) => {
     }
 
     return (
-        <li id={todo.id} key={todo.id + todo.task} value={todo.id} onClick={handleClickLocal} className={todo.complete ? "todo completed" : "todo"}>
+        <li id={todo.id} key={todo.id} value={todo.id} onClick={handleClickLocal} className={todo.complete ? "todo completed" : "todo"}>
             {todo.task}
         </li>
     );

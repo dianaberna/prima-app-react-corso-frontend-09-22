@@ -1,11 +1,11 @@
 import React from "react";
 import ToDo from "./ToDo";
 
-const ToDoList = ({ toDoList, handleClick }) => {
+const ToDoList = ({ lista, handleClick }) => {
     return (
         <>
             <ul>
-                {toDoList.map((todo) => {
+                {lista.map((todo) => {
                     return (
                         <ToDo key={todo.id} todo={todo} handleClick={handleClick}/>
                     );

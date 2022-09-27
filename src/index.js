@@ -50,7 +50,7 @@ root.render(
     <details>
       <summary>Mostra componenti</summary>
       <ToDoListExampleEasy/>
-      {/* <ToDoListExample/> */}
+      <ToDoListExample/>
     </details>
     <h2>TO DO: useEffect </h2>
     <details>
