@@ -6,6 +6,7 @@ import Button from './Button';
 import ButtonWithLoader from './ButtonWithLoader/ButtonWithLoader'
 import ListCard from './ListCard/ListCard'
 import Form from './Form/Form'
+import LifeCycle from './LifeCycle'
 
 import "./index.css"
 
@@ -15,7 +16,7 @@ root.render(
     <h1>App React</h1>
     <h2>Layout (concetti: function component)</h2>
     <details>
-      <summary>Mostra componente Layout</summary>
+      <summary>Mostra componente Layout (per importazioni immagini vedere componente Header)</summary>
       <Layout/>
     </details>
     <h2>Comunicazione Genitore/Figlio (concetti: props e children)</h2>
@@ -28,7 +29,7 @@ root.render(
       <summary>Mostra componente ListCard</summary>
       <ListCard/>
     </details>
-    <h2>Button & ButtonWithLoader (concetti: render condizionato + PropTypes e setState)</h2>
+    <h2>Button & ButtonWithLoader (concetti: props, render condizionato, PropTypes, setState)</h2>
     <details>
       <summary>Mostra componente Button e ButtonWithLoader</summary>
       <Button variante="primary">sono un bottone primary</Button>
@@ -38,10 +39,18 @@ root.render(
       <ButtonWithLoader/>
       <ButtonWithLoader/>
     </details>
-    <h2>Form (concetti: setState e handle di eventi)</h2>
+    <h2>Form (concetti: setState e gestione eventi)</h2>
     <details>
       <summary>Mostra componente Form</summary>
       <Form/>
+    </details>
+    <h2>TO DO: useEffect </h2>
+    <details>
+      <summary><LifeCycle/> </summary>
+    </details>
+    <h2>TO DO: routing </h2>
+    <details>
+      <summary></summary>
     </details>
   </React.StrictMode>
 );

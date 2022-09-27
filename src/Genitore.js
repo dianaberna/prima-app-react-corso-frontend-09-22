@@ -1,6 +1,13 @@
 export default function Genitore(){
     let a = 200
-    
+
+    const ciao = () => {
+        alert("stampa ciao")
+    }
+    const controlloCiao = () =>{
+        ciao()
+    }
+
     return (
         <div >
             <h2>prima chiamata del figlio1</h2>
@@ -29,6 +36,9 @@ export default function Genitore(){
                 <strong>testo</strong>
             </Figlio3>
             <hr/>
+
+            <Figlio4 ciao="buongiorno" />
+            <button onClick={controlloCiao}>cliccami</button>
         </div>
     )
 }
@@ -53,5 +63,11 @@ function Figlio2( {children} ){
 function Figlio3( props ){
     return (
       <p>ciao sono il primo componente : {props.children} -- {props.testo}</p>
+    )
+}
+
+function Figlio4({ciao}){
+    return (
+        <div>ciao! sono un figlio</div>
     )
 }

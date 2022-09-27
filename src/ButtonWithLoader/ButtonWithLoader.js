@@ -16,7 +16,7 @@ export default function ButtonWithLoader() {
     return (
         <button onClick={handleOnClick}>
             <svg
-                className={["rotating",loading === true ? "animation" : "hide",].join(" ")}
+                className={["rotating",loading === true ? "show" : "hide",].join(" ")}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
             >
