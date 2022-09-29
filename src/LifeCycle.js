@@ -7,7 +7,7 @@ function LifecycleDemo() {
     return () => console.log('unmounting...');
   })
 
-  return "I'm a lifecycle demo";
+  return "Sono il componente lifecycle demo";
 }
 
 export default function LifeCycle() {
