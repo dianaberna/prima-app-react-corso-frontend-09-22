@@ -10,15 +10,15 @@ export function Figlio(props){
     )
 }
 
-export function FiglioConClick(props){
+export function FiglioConClick({saluto, handleClick}){
     console.log("sono nel figlio con click")
     let a = 23
 
     return (
         <>
             <p>sono il filgio con click</p>
-            <p>saluto= {props.saluto}</p>
-            <button onClick={props.onClick()} value={a}>cliccami</button>
+            <p>saluto= {saluto}</p>
+            <button onClick={handleClick} value={a}>cliccami</button>
         </>
     )
 }

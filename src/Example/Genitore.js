@@ -23,7 +23,7 @@ export function GenitoreConClick(){
     return (
         <>
             <h2>Sono il genitore CON CLICK</h2>
-            <FiglioConClick saluto="ciao" onClick={() => handleClick}/>
+            <FiglioConClick saluto="ciao" handleClick={handleClick}/>
             <p>valore= {valore}</p>
         </>
     )
