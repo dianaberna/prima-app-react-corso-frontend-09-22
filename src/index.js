@@ -9,13 +9,14 @@ import Form from './Form/Form'
 import LifeCycle from './LifeCycle'
 import ToDoListExampleEasy from './ToDoListExampleEasy'
 import ToDoListExample from './ToDoListExample'
+import Example from "./Example/Example"
 
 import "./index.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>App React</h1>
+{/*     <h1>App React</h1>
     <h2>Layout (concetti: function component)</h2>
     <details>
       <summary>Mostra componente Layout (per importazioni immagini vedere componente Header)</summary>
@@ -55,11 +56,12 @@ root.render(
     <h2>TO DO: useEffect </h2>
     <details>
       <summary>Mostra componente LifeCycle</summary>
-      {/* <LifeCycle/> */}
+      <LifeCycle/>
     </details>
     <h2>TO DO: routing </h2>
     <details>
       <summary></summary>
-    </details>
+    </details> */}
+    <Example/>
   </React.StrictMode>
 );
