@@ -10,7 +10,6 @@ import LifeCycle from './LifeCycle'
 import ToDoListExampleEasy from './ToDoListExampleEasy'
 import ToDoListExample from './ToDoListExample'
 import Example from "./Example/Example"
-
 import "./index.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -58,14 +57,12 @@ root.render(
       <ToDoListExampleEasy/>
       <ToDoListExample/>
     </details>
-    <h2>TO DO: useEffect </h2>
+    <h2>useEffect </h2>
     <details>
       <summary>Mostra componente LifeCycle</summary>
       <LifeCycle/>
     </details>
-    <h2>TO DO: routing </h2>
-    <details>
-      <summary></summary>
-    </details>
+    <h2>Routing</h2>
+    <a href="https://github.com/dianaberna/shop-corso-frontend">Visita repo Shop</a>
   </React.StrictMode>
 );

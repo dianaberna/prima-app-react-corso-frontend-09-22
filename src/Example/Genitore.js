@@ -2,11 +2,14 @@ import { useState } from "react"
 import {Figlio, FiglioConClick, FiglioConClick2} from "./Figlio"
 
 export function Genitore(){
-    console.log("sono nel genitore")
+/*     console.log("sono nel genitore") */
+    const funzione = () => {
+        let prova = "ciao"
+    }
     return (
         <div>
             <h2>Sono il genitore</h2>
-            <Figlio saluto="ciao"/>
+            <Figlio saluto="ciao" funzione={funzione}/>
         </div>
     )
 }
@@ -14,9 +17,9 @@ export function Genitore(){
 export function GenitoreConClick(){
     const [valore, setValore] = useState(1)
 
-    console.log("sono nel genitore con click ")
+/*     console.log("sono nel genitore con click ") */
     const handleClick = (e) =>{
-        console.log("stampo variabile= "+e.target.value)
+      /*   console.log("stampo variabile= "+e.target.value) */
         setValore(e.target.value)
     }
 
@@ -33,7 +36,7 @@ export function GenitoreConClick(){
 export function GenitoreConClick2(){
     const [valore, setValore] = useState(1)
 
-    console.log("sono nel genitore con click ")
+/*     console.log("sono nel genitore con click ") */
     const handleClick = (variabile) =>{
         console.log("stampo variabile= "+variabile)
         setValore(variabile)
