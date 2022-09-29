@@ -1,4 +1,4 @@
-import {Genitore, GenitoreConClick} from "./Genitore"
+import {Genitore, GenitoreConClick, GenitoreConClick2} from "./Genitore"
 
 export default function Example (){
     return (
@@ -6,6 +6,8 @@ export default function Example (){
             <Genitore/>
             <hr/>
             <GenitoreConClick/>
+            <hr/>
+            <GenitoreConClick2/>
         </div>
     )
 }

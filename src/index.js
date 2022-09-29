@@ -16,7 +16,7 @@ import "./index.css"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-{/*     <h1>App React</h1>
+    <h1>App React</h1>
     <h2>Layout (concetti: function component)</h2>
     <details>
       <summary>Mostra componente Layout (per importazioni immagini vedere componente Header)</summary>
@@ -47,6 +47,11 @@ root.render(
       <summary>Mostra componente Form</summary>
       <Form/>
     </details>
+    <h2>Esercizio: Example Genitore/Figlio props+eventi</h2>
+    <details>
+      <summary>Mostra componenti</summary>
+      <Example/>
+    </details>
     <h2>Esercizio: To Do List</h2>
     <details>
       <summary>Mostra componenti</summary>
@@ -61,7 +66,6 @@ root.render(
     <h2>TO DO: routing </h2>
     <details>
       <summary></summary>
-    </details> */}
-    <Example/>
+    </details>
   </React.StrictMode>
 );

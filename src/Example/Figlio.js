@@ -23,3 +23,15 @@ export function FiglioConClick({saluto, handleClick}){
     )
 }
 
+export function FiglioConClick2({saluto, handleClick}){
+    console.log("sono nel figlio con click")
+    let a = 23
+
+    return (
+        <>
+            <p>sono il filgio con click</p>
+            <p>saluto= {saluto}</p>
+            <button onClick={() => handleClick(a)}>cliccami</button>
+        </>
+    )
+}

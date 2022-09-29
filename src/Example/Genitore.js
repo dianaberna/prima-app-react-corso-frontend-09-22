@@ -1,5 +1,5 @@
 import { useState } from "react"
-import {Figlio, FiglioConClick} from "./Figlio"
+import {Figlio, FiglioConClick, FiglioConClick2} from "./Figlio"
 
 export function Genitore(){
     console.log("sono nel genitore")
@@ -29,3 +29,21 @@ export function GenitoreConClick(){
     )
 }
 
+
+export function GenitoreConClick2(){
+    const [valore, setValore] = useState(1)
+
+    console.log("sono nel genitore con click ")
+    const handleClick = (variabile) =>{
+        console.log("stampo variabile= "+variabile)
+        setValore(variabile)
+    }
+
+    return (
+        <>
+            <h2>Sono il genitore CON CLICK 2</h2>
+            <FiglioConClick2 saluto="ciao" handleClick={handleClick}/>
+            <p>valore= {valore}</p>
+        </>
+    )
+}
