@@ -1,15 +1,13 @@
-import "./Button.css"
-import PropTypes from 'prop-types';
+import './Button.css'
+import PropTypes from 'prop-types'
 
 const Button = (props) => {
-    return (
-        <button className={props.variante}>{props.children}</button>
-    )
+  return <button className={props.variante}>{props.children}</button>
 }
 
 Button.propTypes = {
-    variante : PropTypes.string,
-    children : PropTypes.string,
+  variante: PropTypes.string,
+  children: PropTypes.string,
 }
 
-export default Button;
+export default Button
